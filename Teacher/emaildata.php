@@ -131,8 +131,8 @@ if (isset($_GET['id']) && isset($_GET['mark_id'])) {
         // Set email headers
         $headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $headers .= "From: studentresultphp@gmail.com\r\n";
-        $headers .= "Reply-To: studentresultphp@gmail.com\r\n";
+        $headers .= "From: youremail@gmail.com\r\n";
+        $headers .= "Reply-To: youremail@gmail.com\r\n";
 
         // Send email
         if (mail($email, $subject, $html_message, $headers)) {
