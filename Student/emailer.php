@@ -167,8 +167,8 @@ if ($result->num_rows > 0) {
   // Set email headers
   $headers = "MIME-Version: 1.0" . "\r\n";
   $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-  $headers .= "From: studentresultphp@gmail.com\r\n";
-  $headers .= "Reply-To: studentresultphp@gmail.com\r\n";
+  $headers .= "From: your_email@gmail.com\r\n";
+  $headers .= "Reply-To: your_email@gmail.com\r\n";
 
   // Send email
   if (mail($student_email, $subject, $html_message, $headers)) {
