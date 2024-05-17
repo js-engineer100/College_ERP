@@ -9,7 +9,7 @@ This project aims to develop an Enterprise Resource Planning (ERP) system tailor
 - **Course Management**: Manage course offerings, schedules, curriculum details, and prerequisites.
 - **Gradebook**: Maintain student grades, generate reports(pdf and csv), and calculate GPA.
 - **Announcements**: Broadcast important announcements and notifications to students and faculty.
-- **Messaging System**: Facilitate communication between students, faculty, and administrators.
+- **Support Ticket System**: Facilitate communication between students, for revaluation of their answersheets.
 - **Administrative Tools**: Provide administrative tools for user management, data backup, and system configuration.
 
 ## Technologies Used
